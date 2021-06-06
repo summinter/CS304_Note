@@ -92,9 +92,9 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
 ## Lecture 3
 
 1. waterfall process avtivities
-   1. ![1622781244427](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622781244427.png)
-   2. ![1622781252459](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622781252459.png)
-   3. ![1622781284801](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622781284801.png)
+   1. ![image.png](https://i.loli.net/2021/06/06/pYJZsatodv1crL6.png)
+   2. ![image.png](https://i.loli.net/2021/06/06/9KoXcCvq7kl4A53.png)
+   3. ![image](https://user-images.githubusercontent.com/49226728/120919891-a2c0ea00-c6ee-11eb-890c-e3c451210599.png)
 2. EXTREME PROGRAMMING(XP)
    1. Radically different from the rigid waterfall process
       1. Replace it with a collaborative and iterative design process
@@ -116,7 +116,7 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
       solitary efforts.
 4. user stories
    1. A user story represents a feature customers want in the software
-5. STORY POINTS![1622787630967](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622787630967.png)
+5. STORY POINTS![image](https://user-images.githubusercontent.com/49226728/120919900-b409f680-c6ee-11eb-9a7c-e44c0ed46f67.png)
 6. Test-first programming/ Test-driven development
    1. 。它要求在[编写](https://baike.baidu.com/item/%E7%BC%96%E5%86%99/1517598)某个[功能](https://baike.baidu.com/item/%E5%8A%9F%E8%83%BD/10346898)的[代码](https://baike.baidu.com/item/%E4%BB%A3%E7%A0%81/86048)之前先编写测试代码，然后只编写使测试通过的功能代码，通过测试来推动整个开发的进行。这有助于编写简洁可用和高质量的代码，并加速开发过程。
    2. Improve quality - find bugs
@@ -161,8 +161,8 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
       1. Never write a single line of code unless you have a failing automated
          test. 
       2. Eliminate duplication
-   2. ![1622789779523](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622789779523.png)
-   3. ![1622789787245](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622789787245.png)
+   2. ![image](https://user-images.githubusercontent.com/49226728/120919909-bf5d2200-c6ee-11eb-8147-ba78e252cd36.png)
+   3. ![image](https://user-images.githubusercontent.com/49226728/120919916-c4ba6c80-c6ee-11eb-8e2e-d58a3d20fc65.png)
 
 
 
@@ -173,11 +173,11 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
    1. Code coverage is a measure used to describe the degree to
       which the source code of a program is executed when a
       particular test suites runs
-   2. ![1622790144739](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622790144739.png)
+   2. ![image](https://user-images.githubusercontent.com/49226728/120919926-d26ff200-c6ee-11eb-9f60-e7348fe2ebe8.png)
    3. Equation for Computing Coverage
-      1. ![1622790200606](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622790200606.png)
+      1. ![image](https://user-images.githubusercontent.com/49226728/120919944-d6037900-c6ee-11eb-9888-b974cde8781d.png)
    4. branch coverage
-      1. ![1622790215960](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622790215960.png)
+      1.![image](https://user-images.githubusercontent.com/49226728/120919952-d9970000-c6ee-11eb-8603-2bd242bf16da.png)
 
 2. Mutation Testing 
 
@@ -192,8 +192,8 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
    2. How does it works
       1. create the mutant
       2. try to kill the mutant
-         1. ![1622790649348](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622790649348.png)
-         2. meaning:![1622790659109](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622790659109.png)
+         1. ![image](https://user-images.githubusercontent.com/49226728/120919968-e61b5880-c6ee-11eb-9844-d00795186326.png)
+         2. meaning:![image](https://user-images.githubusercontent.com/49226728/120919972-e9aedf80-c6ee-11eb-96de-ea6e2dcafe2c.png)
 
    
 
@@ -215,7 +215,7 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
    8. clean: cleans up artifacts created by prior builds
    9. site: generates site documentation for this project
 2. Coverage = Reachability (可达性)
-   1. Dead code: code that cannot be reached![1622799153084](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622799153084.png)
+   1. Dead code: code that cannot be reached![image](https://user-images.githubusercontent.com/49226728/120919976-f29fb100-c6ee-11eb-801e-7c49b254876a.png)
 3. Measures of the product are called “technical metrics”
 4. Lines of code is valid metric when
    • Same language
@@ -249,7 +249,7 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
    6. There are two types of components:
       1. Many outgoing dependencies and not many of incoming ones (value I is close to 1), are unstable due to the possibility of easy changes to these packages;
       2. Many incoming dependencies and not many of outgoing ones (value I is close to 0), therefore they are more difficult in modifying due to their greater responsibility
-8. LIST OF METRICS![1622803269368](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622803269368.png)
+8. LIST OF METRICS![image](https://user-images.githubusercontent.com/49226728/120919977-f8959200-c6ee-11eb-836d-de0bf7b3360e.png)
 9. REVERSE ENGINEER: From code to design, maybe to requirements
 
 ## Lecture 9
@@ -351,7 +351,7 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
 ## Lecture 11
 
 1. MVC pattern
-   1. ![1622890205202](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622890205202.png)
+   1.![image](https://user-images.githubusercontent.com/49226728/120919980-fe8b7300-c6ee-11eb-95f7-b0646b932d9d.png)
    2. view
       1. :Little logic; just display
    3. model
@@ -410,7 +410,7 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
    4. CI Server
       1. An external machine that automatically pulls your latest repo code and fully builds all resources.
 3. Levels of Software Testing
-   1. ![1622893572078](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622893572078.png)
+   1. ![image](https://user-images.githubusercontent.com/49226728/120919986-04815400-c6ef-11eb-9548-b632a6ed30e1.png)
    2. Integration testing
       1. Integration testing: Verify software quality by testing
          two or more dependent software modules as a group
@@ -429,14 +429,14 @@ Summary of the lecture slides from Sustech CS304 Software Engineering
 8. Stub versus Driver
    1. Both are used to replace the missing software and
       simulate the interface between components
-   2. Create dummy code![1622893857469](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622893857469.png)
+   2. Create dummy code![image](https://user-images.githubusercontent.com/49226728/120919993-0ea35280-c6ef-11eb-833d-224ddea2f0b3.png)
    3. Stub: Dummy function gets called by another function
    4. Driver: Dummy function to
 9. Continuous Delivery
    1. to build software so that it is always in a state where it could be put into production
    2. e we are continuously running a deployment pipeline that tests if this software is in a state to be delivered.
-   3. Cont. Delivery vs. Deployment![1622893996840](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622893996840.png)
-   4. ![1622894006793](C:\Users\ccyys\AppData\Roaming\Typora\typora-user-images\1622894006793.png)
+   3. Cont. Delivery vs. Deployment![image](https://user-images.githubusercontent.com/49226728/120919995-15ca6080-c6ef-11eb-9c7e-4f2de3f66406.png)
+   4. ![image](https://user-images.githubusercontent.com/49226728/120919999-195de780-c6ef-11eb-999e-edaaf09bf88a.png)
 10. Deployment strategies
     1. Strategy 1: Zero-downtime deployment
        1. Deploy version 1 of your service
